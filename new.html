@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <ul class="playlist hidden">
+        <li audiourl="abc.mp3" cover="cover1.jpg" artist="Artist 1">01.mp3</li>
+        <li audiourl="abc1.mp3" cover="cover2.jpg" artist="Artist 2">02.mp3</li>
+        <li audiourl="abc2.mp3" cover="cover3.jpg" artist="Artist 3">03.mp3</li>
+        <li audiourl="abc3.mp3" cover="cover4.jpg" artist="Artist 4">04.mp3</li>
+    </ul>
+          
+    <div id = "playerContainer">
+        <div id="controls">
+            <ul id =  "playerControls" >
+                <li id = "prev-bt"></li>
+                <li id= "play-bt"></li>
+                <li id= "pause-bt"></li> 
+                <li id = "next-bt"></li>
+                <li id= "stop-bt" ></li>
+                <li></li>
+
+            </ul>
+        </div>
+        <div id="right">
+             <div id="top">
+                  <!-- <div id="message1"></div> -->
+                  <div id="message2"></div>
+             </div>
+             <div id="bottom">
+                 <div id ="timecode"></div>
+                 <div id="progressContainer"><!-- Progess bars container //-->
+                       <div id="progressbar" class="dot"></div>
+                 </div>
+                 <div id ="timecodelast"></div>
+             </div>
+         </div>
+    </div>
+    </body>
+</html>
