@@ -1,0 +1,17 @@
+#playerContainer{ position:fixed;background-color: #C15454  ; width: 100%; height: 55px;padding: 8px;border: 1px solid #d0d0d0;left:0px;bottom:0px;}
+#playerControls li { display: block; width: 32px; height: 32px; padding: 0px;float: left; cursor: pointer;}
+#playerControls { list-style: none; padding: 0px; margin: 0px;}
+#play-bt { background: url('icons/play.png'); background-repeat:no-repeat }
+#pause-bt {background: url('icons/pause.png'); background-repeat:no-repeat;}
+#next-bt { background: url('icons/forward.png'); background-repeat:no-repeat}
+#prev-bt {background: url('icons/rewind.png'); background-repeat:no-repeat;}
+#stop-bt {background: url('icons/stop.png'); background-repeat:no-repeat;}
+#controls{width:15%;float:left;padding:17px;}
+#progressContainer { background-color: #e0e0e0;height: 7px;width: 50%;float: left;margin-left: 10px;margin-top: 27px;border-radius:10px;}
+#progressbar {background-color: #1384bb; height:7px; width:0%;border-radius:10px;float:left; }
+#timecode ,#timecodelast{float:left;margin-top: 23px;margin-left: 10px;font-size:13px;}
+#right { width: 70%;float: left;}
+#top{height: 10px;font-size: 10px;}
+ul.playlist {list-style-image: url('icons/switch.png');}
+ul.playlist li{height:30px;top:0px;opacity:0.5;}
+.active{opacity: 1 !important;}
